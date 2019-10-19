@@ -26,7 +26,8 @@ def find_the_cheese(array)
   counter = cheese_types.length
   x = 0
   counter.times do
-  array.include?(cheese_types[x])
+  if array.include?(cheese_types[x])
+    return cheese_types[x]
   end
 
 end

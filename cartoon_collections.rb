@@ -28,6 +28,8 @@ def find_the_cheese(array)
   counter.times do
   if array.include?(cheese_types[x])
     return cheese_types[x]
+  else 
+    return nil
   end
   end
 

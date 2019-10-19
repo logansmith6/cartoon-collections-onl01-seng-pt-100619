@@ -11,11 +11,7 @@ end
 def summon_captain_planet(array)
   # Your code here
   array.map! {|name| name.capitalize}
-
-  array.each! do |name|
-      puts name + '!'
-
-  end
+  array.map! {|name| name + '!'}
 
 end
 

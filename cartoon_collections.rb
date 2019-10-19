@@ -16,7 +16,7 @@ def summon_captain_planet(array)
       puts name + '!'
 
   end
-  
+
 end
 
 def long_planeteer_calls# code an argument here

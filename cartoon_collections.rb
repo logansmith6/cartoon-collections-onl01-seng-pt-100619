@@ -3,7 +3,9 @@ def roll_call_dwarves(dwarves)
   counter = 0
 dwarves.each do |name|
   puts "#{counter} #{name}"
+  counter += 1
   end
+  
 end
 
 def summon_captain_planet# code an argument here
